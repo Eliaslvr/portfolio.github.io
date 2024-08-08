@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 1,
+        "image" : "image",
+        "alt" : "image Booki",
+        "title" : "Booki",
+        "github" : "https://github.com/Eliaslvr/booki.github.io",
+        "description" : "Booki est un projet qui consiste à créer la page d'accueil d'une agence de voyage avec HTML et CSS"
+    },
+    {
+        "id" : 2,
+        "image" : "image",
+        "alt" : "image OhMyFood",
+        "title" : "OhMyFood",
+        "github" : "https://github.com/Eliaslvr/ohMyFood.github.io",
+        "description" : "OhMyFood est un projet qui consiste à améliorer l'interface d'un site mobile avec des animations CSS"
+    },
+    {
+        "id" : 3,
+        "image" : "image",
+        "alt" : "image Sophie Bluel",
+        "title" : "Sophie Bluel",
+        "github" : "https://github.com/Eliaslvr/sophieBluel.github.io",
+        "description" : "Sophie Bluel est un projet qui consiste à créer une page web dynamique avec Javascript"
+    },
+    {
+        "id" : 4,
+        "image" : "image",
+        "alt" : "image Kasa",
+        "title" : "Kasa",
+        "github" : "https://github.com/Eliaslvr/kasa.github.io",
+        "description" : "Kasa est un projet qui consiste à créer une application web de localisation immobilière avec React."
+    },
+    {
+        "id" : 5,
+        "image" : "image",
+        "alt" : "image Nina Carducci",
+        "title" : "Nina Carducci",
+        "github" : "https://github.com/Eliaslvr/ninacarducci.github.io",
+        "description" : "Nina Carducci est un projet sur l'optimisation du référencement d'un site de photographe."
+    },
+    {
+        "id" : 6,
+        "image" : "image",
+        "alt" : "image 724 Events",
+        "title" : "724 Events",
+        "github" : "https://github.com/Eliaslvr/724Events.github.io",
+        "description" : "724 Events est un projet qui consiste à débugger le site d'une agence événementielle."
+    }
+]

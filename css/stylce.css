@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 54px -15px rgba(0, 0, 0, 0.66)
+}
+
+.choice_header {
+    display: flex;
+    font-size: 13px;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.choice_header a {
+    text-decoration: none;
+    color: black;
+}
+
+.first {
+    background-color: #f3f5f5;;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 200px 100px 100px; */
+    padding: 250px 200px 100px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.first_title {
+    padding-bottom: 20px;
+    font-size: 47px;
+}
+
+.first button {
+    width: 127px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 47px;
+    background: darkseagreen;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.first button a {
+    text-decoration: none;
+    color: black;
+}
+
+#second {
+    /* background-color: #fff9c4; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+}
+
+.title {
+    font-size: 47px;
+    padding-bottom: 30px;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+}
+
+.description {
+    font-size: 19px;
+    padding: 26px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px 2px rgb(187, 187, 187);
+}
+
+#third {
+    background-color: #f3f5f5;
+}
+
+.third_img img {
+    width: 50px;
+}
+
+#fifth {
+    background-color: #f3f5f5;
+}
+
+.projet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bloc_projet {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 23px;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 33px;
+}
+
+.bloc_title {
+ font-size: 24px;
+ margin-bottom: 10px;
+}
+
+.bloc_description {
+    font-size: 12px;
+}
+
+.bloc_projet button a {
+    text-decoration: none;
+    color: black;
+}
+
+.bloc_projet button {
+    padding: 7px;
+    background: darkseagreen;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
