@@ -83,6 +83,9 @@ header {
 }
 
 .description {
+    width: 77%;
+    display: flex;
+    margin: 0 auto;
     font-size: 19px;
     padding: 26px;
     border-radius: 20px;
@@ -93,8 +96,51 @@ header {
     background-color: #f3f5f5;
 }
 
-.third_img img {
-    width: 50px;
+.bloc_third {
+    flex-wrap: wrap;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.logo_html {
+    width: 128px;
+}
+
+.logo_css {
+    width: 95px;
+}
+
+.logo_sass {
+    width: 102px;
+}
+
+.logo_js {
+    width: 105px;
+}
+
+.logo_react {
+    width: 91px;
+}
+
+.logo_redux {
+    width: 114px;
+}
+
+.logo_terminal {
+    width: 135px;
+}
+
+.logo_git {
+    width: 82px;
+}
+
+.logo_vs_code {
+    width: 71px;
+}
+
+.logo_github {
+    width: 69px;
 }
 
 #fifth {
