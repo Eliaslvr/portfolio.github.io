@@ -1,7 +1,7 @@
 [
     {
         "id" : 1,
-        "image" : "image",
+        "image" : "./images/booki.png",
         "alt" : "image Booki",
         "title" : "Booki",
         "github" : "https://github.com/Eliaslvr/booki.github.io",
@@ -9,7 +9,7 @@
     },
     {
         "id" : 2,
-        "image" : "image",
+        "image" : "./images/ohmyfood.png",
         "alt" : "image OhMyFood",
         "title" : "OhMyFood",
         "github" : "https://github.com/Eliaslvr/ohMyFood.github.io",
@@ -17,7 +17,7 @@
     },
     {
         "id" : 3,
-        "image" : "image",
+        "image" : "./images/sophie_bluel.webp",
         "alt" : "image Sophie Bluel",
         "title" : "Sophie Bluel",
         "github" : "https://github.com/Eliaslvr/sophieBluel.github.io",

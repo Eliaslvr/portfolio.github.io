@@ -99,9 +99,39 @@ header {
 .bloc_third {
     flex-wrap: wrap;
     display: flex;
-    width: 90%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
 }
+
+.bloc_front {
+    width: 50%;
+}
+
+.bloc_commande {
+    width: 50%;
+}
+
+.bloc_commande div, .bloc_outils div {
+    margin-top: 55px;
+}
+
+.bloc_outils {
+    margin-top: 44px;
+}
+
+.background {
+    background-color: white;
+    padding: 30px;
+    width: 40%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* .background:hover {
+    transform: scale(1.08); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+} */
 
 .logo_html {
     width: 128px;
@@ -137,6 +167,7 @@ header {
 
 .logo_vs_code {
     width: 71px;
+    margin-right: 59px;
 }
 
 .logo_github {
@@ -147,28 +178,39 @@ header {
     background-color: #f3f5f5;
 }
 
-.projet {
+/* .projet {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+} */
 
 .bloc_projet {
-    border: 1px solid;
-    border-radius: 15px;
+    /* border: 1px solid;
+    border-radius: 15px; */
+    display: flex;
     padding: 23px;
-    width: 300px;
-    height: 200px;
+    /* width: 300px; */
+    /* height: 200px; */
     margin-bottom: 33px;
 }
 
+.bloc_projet img {
+    width: 316px;
+    height: 200px;
+}
+
+.bloc_projet span {
+    width: 100%;
+    margin: 20px;
+}
+
 .bloc_title {
- font-size: 24px;
+ font-size: 33px;
  margin-bottom: 10px;
 }
 
 .bloc_description {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .bloc_projet button a {
@@ -178,6 +220,7 @@ header {
 
 .bloc_projet button {
     padding: 7px;
+    margin-top: 19px;
     background: darkseagreen;
     border: none;
     border-radius: 10px;
