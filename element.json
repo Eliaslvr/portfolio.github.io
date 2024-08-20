@@ -25,7 +25,7 @@
     },
     {
         "id" : 4,
-        "image" : "image",
+        "image" : "./images/kasa.png",
         "alt" : "image Kasa",
         "title" : "Kasa",
         "github" : "https://github.com/Eliaslvr/kasa.github.io",
@@ -33,7 +33,7 @@
     },
     {
         "id" : 5,
-        "image" : "image",
+        "image" : "./images/nina_carducci.png",
         "alt" : "image Nina Carducci",
         "title" : "Nina Carducci",
         "github" : "https://github.com/Eliaslvr/ninacarducci.github.io",
