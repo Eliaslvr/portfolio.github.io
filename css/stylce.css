@@ -20,12 +20,13 @@ header {
     display: flex;
     font-size: 13px;
     width: 40%;
-    justify-content: space-around;
+    justify-content: space-around;align-items: center;
 }
 
 .choice_header a {
     text-decoration: none;
     color: black;
+    text-align: center;
 }
 
 .first {
@@ -243,8 +244,13 @@ header {
     }
 
     .choice_header {
-        width: 60%;
+        width: 55%;
+        /* justify-content: space-between; */
     }
+
+    /* .choice_header a {
+        text-align: right;
+    } */
 
     .first_title p {
         font-size: 18px;
@@ -263,5 +269,28 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
+    .first {
+        padding: 150px 50px 70px;
+    }
 
+    .first_title {
+        font-size: 35px;
+    }
+
+    .first p {
+        font-size: 19px;
+        font-weight: 100;
+    }
+
+    .bloc {
+        padding: 40px;
+    }
+
+    #second {
+        padding: 40px 0px;
+    }
+
+    #fourth {
+        padding: 40px 45px 0px;
+    }
 }
