@@ -269,6 +269,15 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    .choice_header {
+        width: 70%;
+        font-size: 11px;
+    }
+
     .first {
         padding: 150px 50px 70px;
     }
@@ -282,8 +291,102 @@ header {
         font-weight: 100;
     }
 
+    .title {
+        font-size: 38px;
+    }
+
+    .description {
+        width: 85%;
+        font-size: 16px;
+    }
+
+    .bloc_front {
+        padding-bottom: 20px;
+    }
+
+    .logo_html {
+        width: 100px;
+    }
+    
+    .logo_css {
+        width: 71px;
+    }
+    
+    .logo_sass {
+        width: 75px;
+    }
+    
+    .logo_js {
+        width: 82px;
+    }
+    
+    .logo_react {
+        width: 66px;
+    }
+    
+    .logo_redux {
+        width: 87px;
+    }
+    
+    .logo_terminal {
+        width: 115px;
+    }
+    
+    .logo_git {
+        width: 73px;
+        padding-bottom: 10px;
+    }
+    
+    .logo_vs_code {
+        width: 56px;
+        margin-right: 50px;
+    }
+    
+    .logo_github {
+        width: 60px;
+    }
+
+    .bloc_commande, .bloc_outils {
+        padding: 0;
+    }
+
+    .bloc_commande p {
+        padding: 35px 0 0;
+    }
+
+    .bloc_outils p {
+        padding: 35px 0 24px;
+    }
+
+    .bloc_commande div, .bloc_outils div {
+        margin-top: 0;
+    }
+
     .bloc {
         padding: 40px;
+    }
+
+    .bloc_title {
+        font-size: 27px;
+    }
+
+    .bloc_description {
+        font-size: 11px;
+    }
+
+    .bloc_projet {
+        display: block;
+        padding: 0;
+    }
+
+    .bloc_projet button {
+        width: 89px;
+        font-size: 11px;
+    }
+
+    .bloc_projet img {
+        width: 100%;
+        height: auto;
     }
 
     #second {
@@ -291,6 +394,6 @@ header {
     }
 
     #fourth {
-        padding: 40px 45px 0px;
+        padding: 40px 25px 0px;
     }
 }
