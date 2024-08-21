@@ -41,7 +41,7 @@
     },
     {
         "id" : 6,
-        "image" : "image",
+        "image" : "./images/724_events.png",
         "alt" : "image 724 Events",
         "title" : "724 Events",
         "github" : "https://github.com/Eliaslvr/724Events.github.io",
