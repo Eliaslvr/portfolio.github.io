@@ -46,5 +46,13 @@
         "title" : "724 Events",
         "github" : "https://github.com/Eliaslvr/724Events.github.io",
         "description" : "724 Events est un projet qui consiste à débugger le site d'une agence événementielle."
+    },
+    {
+        "id" : 7,
+        "image" : "./images/argentBank.png",
+        "alt" : "image Argent Bank",
+        "title" : "Argent Bank",
+        "github" : "https://github.com/Eliaslvr/argent-bank.github.io",
+        "description" : "Argent Bank est un projet qui consiste à implémentez le front-end d'une application bancaire avec React."
     }
 ]
