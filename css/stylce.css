@@ -242,6 +242,8 @@ header {
 
 .logoContact {
     display: flex;
+    width: 35%;
+    margin: 0 auto;
 }
 
 .logoContact svg {
@@ -407,5 +409,13 @@ header {
 
     #fourth {
         padding: 40px 25px 0px;
+    }
+
+    .logoContact {
+        width: 100%;
+    }
+
+    .logoContact svg {
+        width: 30px;
     }
 }
