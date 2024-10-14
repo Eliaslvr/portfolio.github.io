@@ -241,7 +241,7 @@ header {
 }
 
 .logoContact {
-    width: 40px;
+    display: flex;
 }
 
 .logoContact svg {
